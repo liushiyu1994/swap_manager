@@ -1,0 +1,19 @@
+{
+  "malloc_bash_file_name": "create_swap_file.sh",
+  "free_bash_file_name": "remove_swap_file.sh",
+  "data_store_file_name": "data/data.json",
+  "log_file_path": "/var/log/swap_file_manager.log",
+
+  "swap_file_info": "/proc/swaps",
+  "swap_root_path": "/swap",
+  "host": "localhost",
+  "port": 9999,
+  "max_mem": 100000,
+  "min_new_swap": 100,
+  "expire_time": 60,
+  "comment_for_expire_time": "Idle minutes before recycle swap file.",
+  "safe_min_mem": 1000,
+
+  "log_level": 1,
+  "socket_max_len": 1024
+}
