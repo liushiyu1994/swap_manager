@@ -22,7 +22,7 @@ Running the manager script:
 sudo node ./daemon_swap_manager.js start
 ``` 
 
-This code relies on Node.js project. It can be download on [their website]().
+This code relies on Node.js project. It can be download on [their website][].
 
 For more convenience, just make a link to `new_memory.py`:
 
